@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- Cambiado a 'en' por el texto en inglés -->
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>For Mia</title> <!-- Título de pestaña actualizado -->
+    <link rel="stylesheet" href="css/nenufar-style.css" />
+    <link rel="icon" href="img/water-lily-icon.png" type="image/png" />
+</head>
+<body>
+    <audio src="sound/calm-water-sound.mp3" autoplay loop hidden></audio>
+
+    <div class="water-scene">
+        <div class="water-background">
+            <div class="water-texture-overlay"></div>
+            <div class="water-ripple-layer-1"></div>
+            <div class="water-ripple-layer-2"></div>
+            <div class="water-stars"></div>
+        </div>
+
+        <div class="overlay-content">
+            <!-- ===== TEXTO CAMBIADO AQUÍ ===== -->
+            <h1 class="titulo">happy birthday Mia, i love you with all my soul and heart, i hope you have a beautiful day, you deserve it, you deserve everything. Love you. Matu</h1>
+            <div id="lyrics"></div> <!-- Dejar vacío si no hay letras o quitar -->
+        </div>
+
+        <div class="floating-container">
+            <!-- Unidad Flotante ÚNICA (Principal) -->
+            <div class="lily-unit lily-unit--main">
+                <div class="water-lily">
+                    <div class="lily-ripple"></div>
+                    <div class="lily-center">
+                        <div class="stamen-core"></div>
+                    </div>
+                    <!-- Capas de Pétalos -->
+                    <div class="petal-layer petal-layer--base"> <!-- 8 pétalos base -->
+                        <div class="petal petal-b1"></div> <div class="petal petal-b2"></div> <div class="petal petal-b3"></div> <div class="petal petal-b4"></div>
+                        <div class="petal petal-b5"></div> <div class="petal petal-b6"></div> <div class="petal petal-b7"></div> <div class="petal petal-b8"></div>
+                    </div>
+                    <div class="petal-layer petal-layer--outer"> <!-- 12 pétalos -->
+                       <div class="petal petal-o1"></div> <div class="petal petal-o2"></div> <div class="petal petal-o3"></div> <div class="petal petal-o4"></div>
+                       <div class="petal petal-o5"></div> <div class="petal petal-o6"></div> <div class="petal petal-o7"></div> <div class="petal petal-o8"></div>
+                       <div class="petal petal-o9"></div> <div class="petal petal-o10"></div> <div class="petal petal-o11"></div> <div class="petal petal-o12"></div>
+                    </div>
+                    <div class="petal-layer petal-layer--mid"> <!-- 10 pétalos -->
+                       <div class="petal petal-m1"></div> <div class="petal petal-m2"></div> <div class="petal petal-m3"></div> <div class="petal petal-m4"></div> <div class="petal petal-m5"></div>
+                       <div class="petal petal-m6"></div> <div class="petal petal-m7"></div> <div class="petal petal-m8"></div> <div class="petal petal-m9"></div> <div class="petal petal-m10"></div>
+                    </div>
+                    <div class="petal-layer petal-layer--inner"> <!-- 8 pétalos -->
+                       <div class="petal petal-i1"></div> <div class="petal petal-i2"></div> <div class="petal petal-i3"></div> <div class="petal petal-i4"></div>
+                       <div class="petal petal-i5"></div> <div class="petal petal-i6"></div> <div class="petal petal-i7"></div> <div class="petal petal-i8"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Unidades Secundarias ELIMINADAS -->
+
+            <!-- Luciérnagas -->
+            <div class="firefly ff--1"></div> <div class="firefly ff--2"></div> <div class="firefly ff--3"></div>
+            <div class="firefly ff--4"></div> <div class="firefly ff--5"></div> <div class="firefly ff--6"></div>
+            <div class="firefly ff--7"></div> <div class="firefly ff--8"></div> <div class="firefly ff--9"></div>
+            <div class="firefly ff--10"></div> <div class="firefly ff--11"></div> <div class="firefly ff--12"></div>
+
+        </div> <!-- Fin floating-container -->
+    </div> <!-- Fin water-scene -->
+
+    <!-- QUITAR SI NO HAY LETRAS -->
+    <!-- <script src="js/lyrics-data.js"></script> -->
+    <!-- <script src="js/nenufar-anim.js"></script> -->
+
+    <!-- SOLO NECESITAS ESTE SI AÚN USAS EL BOTÓN DE INICIO -->
+    <script src="js/main.js"></script>
+</body>
+</html>
